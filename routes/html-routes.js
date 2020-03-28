@@ -4,11 +4,11 @@ var path = require("path");
 //creating routes for sending html data to browser
 module.exports = function (app) {
 
-  app.get("/lostPet", function (req, res) {
-
+  app.get("/", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/test.html"));
   });
 
-  app.get("/foundPets", function (req, res) {
+  app.post("/", function (req, res) {
 
   });
 };
