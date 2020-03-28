@@ -1,0 +1,26 @@
+{
+  "name": "COVID19_hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmaganty/COVID19_hackathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmaganty/COVID19_hackathon/issues"
+  },
+  "homepage": "https://github.com/pmaganty/COVID19_hackathon#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  }
+}
