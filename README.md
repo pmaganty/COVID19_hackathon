@@ -8,4 +8,4 @@
 + Run using "node server.js"
 + Open local host 3000
 
-## CURRENT STATUS: Basic configuration created. Database and connection to Heroku created. Need to add in logic to manipulat database (add, extrace, create api, send to browse, etc.).
+## CURRENT STATUS: Basic configuration created. Database and connection to Heroku created. Need to add in logic to manipulate database (add, extract, create api, send to browser, etc.).
