@@ -1,6 +1,9 @@
 // Requiring path to so we can use relative routes to our HTML files
 var path = require("path");
 
+//requiring models to access tables from db
+var db = require("../models");
+
 //creating routes for sending html data to browser
 module.exports = function (app) {
 
@@ -8,7 +11,10 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../public/test.html"));
   });
 
-  app.post("/", function (req, res) {
-
+  //creating user info api
+  app.post("/api/userInfo", function (req, res) {
+    db.UserInfo.findAll().then(function(result) {
+        res.json(result);
+      });
   });
 };

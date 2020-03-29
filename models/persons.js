@@ -1,18 +1,27 @@
 // Creating our Person model using sequelize
-
-//should add some validation eventually
 module.exports = function (sequelize, DataTypes) {
     var Persons = sequelize.define("Persons", {
   
-      mac_address: {
-        type: DataTypes.STRING, //.INTEGER ??
+    beacon_id: {
+        type: DataTypes.INTEGER,
         allowNull: false
-      },
-  
-      timestap: { 
-        type: DataTypes.STRING, //.INTEGER ??
+    },
+    email: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: {
+          isEmail: true
+        }
+    },
+    infected: {
+        type: DataTypes.BOOLEAN,
         allowNull: false
-      }
+    },
+    created_at: {
+        type: DataTypes.DATE,
+        allowNull: false
+    }
+      
     });
   
     return Persons;

@@ -1,0 +1,1 @@
+INSERT INTO covid19_db.UserInfo (email, password, username, identification, current_health, have_fever_chills_shakes, have_cough, have_any_covid_symptoms, have_travelled_outside_country, have_contact_with_symptoms) VALUES ("hannah@gmail.com", "passwordsarestupid", "hello", "health care proffesional", "mild symptoms", true, true, true, false, true); 
