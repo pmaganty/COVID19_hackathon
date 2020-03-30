@@ -1,6 +1,6 @@
 ## Project: COVID19 Hackathon
 ### Github Repo Link: https://github.com/pmaganty/COVID19_hackathon
-### Heroku Link: https://damp-beyond-65789.herokuapp.com/
+### Heroku Link: https://morning-eyrie-07110.herokuapp.com/
 ### Description: 
 
 #### How to get project up and running on local machine:
