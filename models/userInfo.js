@@ -76,6 +76,10 @@ module.exports = function (sequelize, DataTypes) {
         timestamps: false 
     }
     );
+
+    UserInfo.associate = function(models) {
+        models.UserInfo.hasMany(models.AccessEvent);
+      };
   
     return UserInfo;
   };
