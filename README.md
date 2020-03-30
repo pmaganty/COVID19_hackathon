@@ -30,30 +30,4 @@
 + server.js: main file to run that sets up localserver to listen on
 
 #### Database information:
-+ Datebase include 3 tables:
-    - UserInfo:
-        - Columns:
-             - id (Primary key)
-             - email
-             - password
-             - username
-             - identification
-             - current_health
-             - have_fever_chills_shakes
-             - have_cough
-             - have_any_covid_symptoms
-             - have_travelled_outside_country
-             - have_contact_with_symptoms
-    - AccessEvent:
-        - Columns:
-            - id (Primary Key)
-            - customer_id (Foreign Key)
-            - hotspot_id (Foreign Key)
-            - timestamp
-            - event_type
-    - WifiHotspot:
-        - Column
-            - id (Primary Key)
-            - hotspot_id
-            - latitude
-            - longitude
+![image info](./public/assets/db_diagram.PNG)
