@@ -5,7 +5,13 @@
 
 #### How to get project up and running on local machine:
 + Enter command "npm i" to grab all dependency libraries
++ Copy code from "schema.sql" file and run in sql server to create database
++ Change password field to your connection password in config/config.json file
 + Run using "node server.js"
-+ Open local host 3000
++ Open local host 8082
 
-## CURRENT STATUS: Basic configuration created. Database and connection to Heroku created. Need to add in logic to manipulate database (add, extract, create api, send to browser, etc.).
+### Contents:
++ config/
++ models/
++ public/
++ routes/
